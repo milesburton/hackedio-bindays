@@ -49,9 +49,19 @@
 
         <div class="row" ng-show="addresses.length > 0">
             <div class="span8">
-                <select ng-model="address" ng-options="address.address for address in addresses"></select><br>
+                <select ng-model="address" ng-options="address.address for address in addresses" ng-change='showAddress()'></select><br>
             </div>
         </div>
+
+         <ul class="unstyled">
+             <li ng-repeat='binDay in binDays' style="position: relative; height: 100px;">
+                 <img src="{{binDay.imgHref}}" alt="{{binDay.type}}" class="img-circle" style="float:left">
+                 <b>{{binDay.type}} </b>  <br />
+                 {{binDay.nextCollection}}
+
+             </li>
+         </ul>
+
     </div>
 </div>
 </body>

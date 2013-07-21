@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d396924-ba86-4e0e-b3eb-ac2a2db09112" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/js/modules/home/angular.js" afterPath="$PROJECT_DIR$/web-app/js/modules/home/angular.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/home/home.gsp" afterPath="$PROJECT_DIR$/grails-app/views/home/home.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hackedio-bindays.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
-    <file path="/Dummy.txt" changelist="6d396924-ba86-4e0e-b3eb-ac2a2db09112" time="1374390322712" ignored="false" />
+    <file path="/Dummy.txt" changelist="6d396924-ba86-4e0e-b3eb-ac2a2db09112" time="1374391638138" ignored="false" />
     <file path="/resources.groovy" changelist="6d396924-ba86-4e0e-b3eb-ac2a2db09112" time="1374369271619" ignored="false" />
     <file path="/Config.groovy" changelist="6d396924-ba86-4e0e-b3eb-ac2a2db09112" time="1374375514510" ignored="false" />
     <file path="/PostcodeController.groovy" changelist="6d396924-ba86-4e0e-b3eb-ac2a2db09112" time="1374379711637" ignored="false" />
@@ -24,8 +23,8 @@
     <file path="/FindAddressService.groovy" changelist="6d396924-ba86-4e0e-b3eb-ac2a2db09112" time="1374379894996" ignored="false" />
     <file path="/BinDaysController.groovy" changelist="6d396924-ba86-4e0e-b3eb-ac2a2db09112" time="1374382604095" ignored="false" />
     <file path="/main.gsp" changelist="6d396924-ba86-4e0e-b3eb-ac2a2db09112" time="1374388207475" ignored="false" />
-    <file path="/home.gsp" changelist="6d396924-ba86-4e0e-b3eb-ac2a2db09112" time="1374391597981" ignored="false" />
-    <file path="/angular.js" changelist="6d396924-ba86-4e0e-b3eb-ac2a2db09112" time="1374389257360" ignored="false" />
+    <file path="/home.gsp" changelist="6d396924-ba86-4e0e-b3eb-ac2a2db09112" time="1374392768417" ignored="false" />
+    <file path="/angular.js" changelist="6d396924-ba86-4e0e-b3eb-ac2a2db09112" time="1374392184406" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,51 +107,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.gsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/home/home.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="46" selection-start="1766" selection-end="1766" vertical-scroll-proportion="0.6103896">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationResources.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="31" selection-start="440" selection-end="440" vertical-scroll-proportion="-10.8">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="angular.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-app/js/angular.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="481" selection-end="481" vertical-scroll-proportion="10.571428">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="angular.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-app/js/modules/home/angular.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="336" selection-end="336" vertical-scroll-proportion="-9.6">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BuildConfig.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
@@ -162,10 +116,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UrlMappings.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
+      <file leaf-file-name="angular.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/js/modules/home/angular.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="41" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
+            <state line="26" column="22" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.gsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/home/home.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="38" selection-start="2249" selection-end="2249" vertical-scroll-proportion="0.86702126">
               <folding />
             </state>
           </provider>
@@ -201,9 +164,9 @@
         <option value="$PROJECT_DIR$/grails-app/controllers/bindays/HomeController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/layouts/main.gsp" />
-        <option value="$PROJECT_DIR$/web-app/js/modules/home/angular.js" />
         <option value="$PROJECT_DIR$/grails-app/conf/ApplicationResources.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/web-app/js/modules/home/angular.js" />
         <option value="$PROJECT_DIR$/grails-app/views/home/home.gsp" />
       </list>
     </option>
@@ -307,6 +270,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hackedio-bindays" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hackedio-bindays" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -658,7 +647,11 @@
       <created>1374390325800</created>
       <updated>1374390325800</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="@Miles displayed address correctly">
+      <created>1374391641103</created>
+      <updated>1374391641103</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -736,7 +729,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="@Miles added missing resources" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Miles displayed address correctly" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -752,18 +745,12 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Grails services added for OS front end support" />
     <MESSAGE value="@Miles added missing resources" />
+    <MESSAGE value="@Miles displayed address correctly" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/dev/grails-2.2.3/lib/org.springsource.springloaded/springloaded-core/jars/springloaded-core-1.1.3-sources.jar!/org/springsource/loaded/ReloadableType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="906" column="0" selection-start="33948" selection-end="33948" vertical-scroll-proportion="0.1923077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/DevTestUrlMappings.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="97" selection-start="343" selection-end="354" vertical-scroll-proportion="0.24549918">
@@ -824,35 +811,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="41" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/js/modules/home/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="336" selection-end="336" vertical-scroll-proportion="-9.6">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="481" selection-end="481" vertical-scroll-proportion="10.571428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1645" selection-end="1645" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-app/js/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="5" column="17" selection-start="142" selection-end="149" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -864,9 +823,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="481" selection-end="481" vertical-scroll-proportion="2.3061225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/angular-resource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="1645" selection-end="1645" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/modules/home/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="22" selection-start="679" selection-end="679" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/home/home.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="46" selection-start="1766" selection-end="1766" vertical-scroll-proportion="0.6103896">
+        <state line="58" column="38" selection-start="2249" selection-end="2249" vertical-scroll-proportion="0.86702126">
           <folding />
         </state>
       </provider>
