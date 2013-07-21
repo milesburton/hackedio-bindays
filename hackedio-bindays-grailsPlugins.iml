@@ -4,8 +4,15 @@
     <facet type="web" name="GrailsWeb">
       <configuration>
         <webroots>
-          <root url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/database-migration-1.3.2/grails-app/views" relative="/" />
           <root url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/jquery-1.8.3/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/cache-headers-1.1.5/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/cached-resources-1.0/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/cached-resources-1.0/grails-app/views" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/zipped-resources-1.0/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/zipped-resources-1.0/grails-app/views" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/twitter-bootstrap-2.3.2/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/angularjs-resources-1.0.6/web-app" relative="/" />
+          <root url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/angularjs-resources-1.0.6/grails-app/views" relative="/" />
         </webroots>
         <sourceRoots />
       </configuration>
@@ -13,34 +20,51 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
+    <content url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/angularjs-resources-1.0.6">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/angularjs-resources-1.0.6/grails-app/controllers" isTestSource="false" />
+    </content>
     <content url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/cache-1.0.1">
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/cache-1.0.1/src/java" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/cache-1.0.1/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/cache-1.0.1/grails-app/services" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/cache-1.0.1/grails-app/taglib" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/database-migration-1.3.2">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/database-migration-1.3.2/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/database-migration-1.3.2/grails-app/controllers" isTestSource="false" />
+    <content url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/cache-headers-1.1.5">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/cache-headers-1.1.5/grails-app/i18n" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/cache-headers-1.1.5/grails-app/services" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/hibernate-2.2.3">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/hibernate-2.2.3/grails-app/i18n" isTestSource="false" />
+    <content url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/cached-resources-1.0">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/cached-resources-1.0/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/cached-resources-1.0/grails-app/i18n" isTestSource="false" />
     </content>
+    <content url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/cors-1.0.3">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/cors-1.0.3/src/java" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/geb-0.9.0" />
     <content url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/jquery-1.8.3">
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/jquery-1.8.3/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/jquery-1.8.3/grails-app/i18n" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/jquery-1.8.3/grails-app/services" isTestSource="false" />
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/jquery-1.8.3/grails-app/taglib" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/resources-1.2">
-      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/resources-1.2/src/java" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/resources-1.2/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/resources-1.2/grails-app/i18n" isTestSource="false" />
-      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/resources-1.2/grails-app/taglib" isTestSource="false" />
+    <content url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/lesscss-resources-1.3.3" />
+    <content url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/resources-1.1.6">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/resources-1.1.6/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/resources-1.1.6/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/resources-1.1.6/grails-app/i18n" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/resources-1.1.6/grails-app/taglib" isTestSource="false" />
     </content>
+    <content url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/spock-0.7" />
     <content url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/tomcat-2.2.3" />
+    <content url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/twitter-bootstrap-2.3.2">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/twitter-bootstrap-2.3.2/grails-app/i18n" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/twitter-bootstrap-2.3.2/grails-app/taglib" isTestSource="false" />
+    </content>
     <content url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/webxml-1.4.1">
       <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/webxml-1.4.1/src/groovy" isTestSource="false" />
+    </content>
+    <content url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/zipped-resources-1.0">
+      <sourceFolder url="file://$USER_HOME$/.grails/2.2.3/projects/bindays/plugins/zipped-resources-1.0/grails-app/i18n" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -49,6 +73,53 @@
       <library name="Grails User Library (hackedio-bindays-grailsPlugins)">
         <CLASSES>
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.eclipse.jdt.core.compiler/ecj/jars/ecj-3.7.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.mozilla/rhino/jars/rhino-1.7R4.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/commons-io/commons-io/jars/commons-io-2.4.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.lesscss/lesscss/jars/lesscss-1.3.3.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/javax.servlet/servlet-api/jars/servlet-api-2.5.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/commons-codec/commons-codec/jars/commons-codec-1.6.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/net.xelnaga/http-imposter/jars/http-imposter-1.0.130719.1700.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/com.google.code.gson/gson/jars/gson-2.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.httpcomponents/httpmime/jars/httpmime-4.1.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.1.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.1.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/com.popcornteam/restclient/jars/restclient-1.0.130719.1658.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/joda-time/joda-time/jars/joda-time-2.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/net.sourceforge.htmlunit/htmlunit/jars/htmlunit-2.9.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/com.google.code.findbugs/jsr305/jars/jsr305-1.3.9.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/com.google.guava/guava/jars/guava-11.0.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.seleniumhq.selenium/selenium-api/jars/selenium-api-2.21.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.seleniumhq.selenium/selenium-htmlunit-driver/jars/selenium-htmlunit-driver-2.21.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails/grails/jars/grails-2.2.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.grails/grails-test-suite-base/jars/grails-test-suite-base-2.2.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.ow2.asm/asm/jars/asm-4.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/cglib/cglib/jars/cglib-3.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.objenesis/objenesis/jars/objenesis-1.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.gebish/geb-implicit-assertions/jars/geb-implicit-assertions-0.9.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.gebish/geb-ast/jars/geb-ast-0.9.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.gebish/geb-core/jars/geb-core-0.9.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.gebish/geb-spock/jars/geb-spock-0.9.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.3.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/junit/junit-dep/jars/junit-dep-4.10.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.spockframework/spock-core/jars/spock-core-0.7-groovy-2.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.spockframework/spock-grails-support/jars/spock-grails-support-0.7-groovy-2.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.seleniumhq.selenium/selenium-firefox-driver/jars/selenium-firefox-driver-2.21.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/net.java.dev.jna/platform/jars/platform-3.4.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/net.java.dev.jna/jna/jars/jna-3.4.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.commons/commons-exec/jars/commons-exec-1.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.json/json/jars/json-20080701.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/cglib/cglib-nodep/jars/cglib-nodep-2.1_3.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.seleniumhq.selenium/selenium-remote-driver/jars/selenium-remote-driver-2.21.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.seleniumhq.selenium/selenium-chrome-driver/jars/selenium-chrome-driver-2.21.0.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.w3c.css/sac/jars/sac-1.3.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/net.sourceforge.cssparser/cssparser/jars/cssparser-0.9.5.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/net.sourceforge.nekohtml/nekohtml/jars/nekohtml-1.9.15.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/xerces/xercesImpl/jars/xercesImpl-2.9.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/net.sourceforge.htmlunit/htmlunit-core-js/jars/htmlunit-core-js-2.9.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/xalan/xalan/jars/xalan-2.7.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.ccil.cowan.tagsoup/tagsoup/jars/tagsoup-1.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

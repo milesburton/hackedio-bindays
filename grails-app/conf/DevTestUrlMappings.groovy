@@ -4,9 +4,11 @@ class DevTestUrlMappings {
 
     static mappings = {
 
-        if(['test','dev'].contains(Environment.current.name)){
 
-           "/fake/southwalk/findAddress.jsp"       (controller:"southwalk", action: 'findAddress')
+        if(['test','development'].contains(Environment.current.name)){
+
+           "/fake/southwalk/findAddress.asp"       (controller:"southwalk", action: 'findAddress')
+           "/fake/southwalk/findSummary.asp"       (controller: "southwalk", action: "findSummary")
 
         }
     }

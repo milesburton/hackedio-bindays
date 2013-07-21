@@ -1,28 +1,72 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"><!--<![endif]-->
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title><g:layoutTitle default="Grails"/></title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="shortcut icon" href="${resource(dir: 'images', file: 'favicon.ico')}" type="image/x-icon">
-		<link rel="apple-touch-icon" href="${resource(dir: 'images', file: 'apple-touch-icon.png')}">
-		<link rel="apple-touch-icon" sizes="114x114" href="${resource(dir: 'images', file: 'apple-touch-icon-retina.png')}">
-		<link rel="stylesheet" href="${resource(dir: 'css', file: 'main.css')}" type="text/css">
-		<link rel="stylesheet" href="${resource(dir: 'css', file: 'mobile.css')}" type="text/css">
-		<g:layoutHead/>
-		<r:layoutResources />
-	</head>
-	<body>
-		<div id="grailsLogo" role="banner"><a href="http://grails.org"><img src="${resource(dir: 'images', file: 'grails_logo.png')}" alt="Grails"/></a></div>
-		<g:layoutBody/>
-		<div class="footer" role="contentinfo"></div>
-		<div id="spinner" class="spinner" style="display:none;"><g:message code="spinner.alt" default="Loading&hellip;"/></div>
-		<g:javascript library="application"/>
-		<r:layoutResources />
-	</body>
+<!DOCTYPE html >
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"  xmlns:ng="http://angularjs.org" ng-app='binman'> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"  xmlns:ng="http://angularjs.org" ng-app='binman'> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"  xmlns:ng="http://angularjs.org" ng-app='binman'> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"  xmlns:ng="http://angularjs.org" ng-app='binman'> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js" ng-app='binman'><!--<![endif]-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title><g:layoutTitle default="Grails"/></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <r:require modules="core"/>
+    <g:layoutHead/>
+    <r:layoutResources/>
+
+    <style>
+
+    .results {
+        margin: 10px 0;
+        padding: 10px;
+    }
+
+    .results .k-widget {
+        border-style: none;
+    }
+
+    .result {
+        margin: 20px;
+    }
+
+    .result > :first-child {
+        float: left;
+        margin-right: 10px;
+    }
+
+    .poster {
+        width: 100px;
+        height: 149px;
+    }
+
+    .details {
+        margin-left: 110px;
+    }
+
+    .title {
+        font-weight: bold;
+        font-size: 1.2em;
+    }
+
+    .logo {
+        height: 25px;
+        width: 88px;
+        margin-top: -10px;
+    }
+
+        /* Begin Responsive Styles */
+
+    @media all and (max-width: 980px) {
+        .k-pager-numbers, .synopsis {
+            display: none;
+        }
+    }
+
+    </style>
+</head>
+</body>
+<g:javascript library="application"/>
+<g:layoutBody/>
+<r:layoutResources/>
+
+</body>
 </html>

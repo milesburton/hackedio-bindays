@@ -2,6 +2,8 @@ package mb
 
 class QueryStringBuilderService {
 
+    static transactional = false
+
     def asResource(String resource, Map query) {
 
         if (query) {

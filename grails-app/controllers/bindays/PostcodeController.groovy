@@ -1,18 +1,19 @@
 package bindays
 
-import com.popcornteam.restclient.RestClient
+import grails.converters.JSON
 import mb.QueryStringBuilderService
 
 class PostcodeController {
 
-    RestClient southwalkClient
-    QueryStringBuilderService queryStringBuilderService
+
+    FindAddressService findAddressService
+
 
     def postcode(String postcode){
 
-        String html = southwalkClient.get(queryStringBuilderService.asResource('findAddress.asp', ['postcode':params.postcode])).bodyAsString
+        def addresses = findAddressService.fetchAddresses(postcode)
 
-        render(text:html)
+        render addresses as JSON
     }
 }
 

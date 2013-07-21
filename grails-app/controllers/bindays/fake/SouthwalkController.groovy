@@ -1,13 +1,17 @@
 package bindays.fake
 
-import grails.converters.JSON
+import org.codehaus.groovy.grails.web.mapping.LinkGenerator
 
 class SouthwalkController {
 
+    LinkGenerator linkGenerator
+
     def findAddress() {
 
+        render(text: getClass().getResource("/mb/fixture/findAddress.asp").text)
+    }
 
-        def a = ['bleh': 'asdasd']
-        render a as JSON
+    def findSummary(){
+        render(text: getClass().getResource("/mb/fixture/findSummary.asp").text)
     }
 }
