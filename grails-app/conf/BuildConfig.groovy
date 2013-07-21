@@ -69,7 +69,8 @@ grails.project.dependency.resolution = {
 
         compile ':cache:1.0.1',
                 ":cache-headers:1.1.5",
-                ":lesscss-resources:1.3.3"
+                ":lesscss-resources:1.3.3",
+                ":ic-alendar:0.3.7"
 
 
 

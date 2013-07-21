@@ -90,6 +90,8 @@
           <root url="jar://$USER_HOME$/.grails/ivy-cache/xalan/xalan/jars/xalan-2.7.1.jar!/" />
           <root url="file://$MODULE_DIR$/lib" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.ccil.cowan.tagsoup/tagsoup/jars/tagsoup-1.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/backport-util-concurrent/backport-util-concurrent/jars/backport-util-concurrent-3.1.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.mnode.ical4j/ical4j/jars/ical4j-1.0.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

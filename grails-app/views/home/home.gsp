@@ -55,7 +55,7 @@
 
          <ul class="unstyled">
              <li ng-repeat='binDay in binDays' style="position: relative; height: 100px;">
-                 <img src="{{binDay.imgHref}}" alt="{{binDay.type}}" class="img-circle" style="float:left">
+                 <a href="{{binDay.calendarEntry}}"><img src="{{binDay.imgHref}}" alt="{{binDay.type}}" class="img-circle" style="float:left"></a>
                  <b>{{binDay.type}} </b>  <br />
                  {{binDay.nextCollection}}
 
