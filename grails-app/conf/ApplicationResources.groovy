@@ -4,6 +4,7 @@ modules = {
         resource url: 'js/bootstrap.min.js'
         resource url: 'js/angular.js'
         resource url: 'js/angular-resource.js'
+        resource url: 'js/ui-bootstrap-0.4.0.min.js'
     }
 
     core {

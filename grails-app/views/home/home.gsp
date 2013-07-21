@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Southwalk Bin Days (Yeah that awesome)</title>
-    <r:require modules="home" />
+    <r:require modules="home"/>
 </head>
 
 <body>
@@ -39,26 +39,17 @@
                 <div class="form-search">
                     <div class="input-prepend">
                         <button data-bind="click: search" class="btn">Postcode</button>
-                        <input type="text" required data-bind="value: postcode" class="span2 search-query" name="postcode" ng-model="postcode" ng-change="fetchAddress()">
+                        <input type="text" required data-bind="value: postcode" class="span2 search-query"
+                               name="postcode" ng-model="postcode" ng-change="fetchAddress()">
                     </div>
                 </div>
             </div>
         </div>
-        <br />
-        <div class="row" ng-show="{address.length > 0}">
-            <div class="span8">
-                <div class="btn-group dropdown">
-                    <button class="btn">Your Address</button>
-                    <button class="btn dropdown-toggle" data-toggle="dropdown">
-                        <span class="caret"></span>
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li ng-repeat="address in addresses">
-                            <a tabindex="-1" href="#">{{address.address}}</a>
-                        </li>
-                    </ul>
-                </div>
+        <br/>
 
+        <div class="row" ng-show="addresses.length > 0">
+            <div class="span8">
+                <select ng-model="address" ng-options="address.address for address in addresses"></select><br>
             </div>
         </div>
     </div>

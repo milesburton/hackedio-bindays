@@ -53,7 +53,6 @@ grails.project.dependency.resolution = {
                 'cglib:cglib:3.0',
                 'org.grails:grails-test-suite-base:2.2.2'
 
-
     }
 
     plugins {
