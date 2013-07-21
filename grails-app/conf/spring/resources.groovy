@@ -14,5 +14,5 @@ beans = {
                 ],
                 new HttpClientFactory().makeThreadSafeHttpClient(32)
         )
-   \
+
 }

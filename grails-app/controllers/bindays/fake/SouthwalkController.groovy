@@ -7,7 +7,7 @@ class SouthwalkController {
     def findAddress() {
 
 
-        def m = ['bleh': 'asdasd']
+        def a = ['bleh': 'asdasd']
         render a as JSON
     }
 }

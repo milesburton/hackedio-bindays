@@ -6,7 +6,7 @@ class DevTestUrlMappings {
 
         if(['test','dev'].contains(Environment.current.name)){
 
-            "/fake/southwalk/findAddress.jsp"       (controler:"southwalk", action: 'findAddress')
+           "/fake/southwalk/findAddress.jsp"       (controller:"southwalk", action: 'findAddress')
 
         }
     }

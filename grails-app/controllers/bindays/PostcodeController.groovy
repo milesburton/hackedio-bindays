@@ -8,7 +8,7 @@ class PostcodeController {
     RestClient southwalkClient
     QueryStringBuilderService queryStringBuilderService
 
-    def postcode(){
+    def postcode(String postcode){
 
         String html = southwalkClient.get(queryStringBuilderService.asResource('findAddress.asp', ['postcode':params.postcode])).bodyAsString
 

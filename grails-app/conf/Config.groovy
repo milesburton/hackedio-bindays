@@ -18,7 +18,6 @@ grails.project.dependency.resolution = {
         inherits true
 
         grailsPlugins()
-        grailsHome()
         grailsCentral()
 
         mavenLocal()
