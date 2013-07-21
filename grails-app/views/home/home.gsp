@@ -45,7 +45,7 @@
             </div>
         </div>
         <br />
-        <div class="row">
+        <div class="row" ng-show="{address.length > 0}">
             <div class="span8">
                 <div class="btn-group dropdown">
                     <button class="btn">Your Address</button>
@@ -55,7 +55,6 @@
                     <ul class="dropdown-menu">
                         <li ng-repeat="address in addresses">
                             <a tabindex="-1" href="#">{{address.address}}</a>
-
                         </li>
                     </ul>
                 </div>
