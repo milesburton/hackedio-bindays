@@ -1,0 +1,13 @@
+{
+  "name": "Southwark Bins",
+  "description": "Learn which days the bins are being collected in your area",
+  "launch_path": "/",
+  "icons": {
+    "128": "http://www.southwark.gov.uk/images/brownbin.gif"
+  },
+  "developer": {
+    "name": "HackedIO",
+    "url": "http://localhost:8080/bindays/"
+  },
+  "default_locale": "en"
+}
