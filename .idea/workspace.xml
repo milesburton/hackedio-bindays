@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d396924-ba86-4e0e-b3eb-ac2a2db09112" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/bindays/BinDayService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/bindays/BinDayService.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/bindays/CalendarEntryController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/bindays/CalendarEntryController.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/UrlMappings.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hackedio-bindays-grailsPlugins.iml" afterPath="$PROJECT_DIR$/hackedio-bindays-grailsPlugins.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hackedio-bindays.iml" afterPath="$PROJECT_DIR$/hackedio-bindays.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="hackedio-bindays.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
-    <file path="/Dummy.txt" changelist="6d396924-ba86-4e0e-b3eb-ac2a2db09112" time="1374393814379" ignored="false" />
+    <file path="/Dummy.txt" changelist="6d396924-ba86-4e0e-b3eb-ac2a2db09112" time="1374396191123" ignored="false" />
     <file path="/resources.groovy" changelist="6d396924-ba86-4e0e-b3eb-ac2a2db09112" time="1374369271619" ignored="false" />
     <file path="/Config.groovy" changelist="6d396924-ba86-4e0e-b3eb-ac2a2db09112" time="1374375514510" ignored="false" />
     <file path="/PostcodeController.groovy" changelist="6d396924-ba86-4e0e-b3eb-ac2a2db09112" time="1374379711637" ignored="false" />
@@ -720,7 +714,11 @@
       <created>1374393827369</created>
       <updated>1374393827369</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="@Miles @Em fixed date time format">
+      <created>1374396202629</created>
+      <updated>1374396202629</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -799,7 +797,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="@Miles added rough and ready calendar entry generator... Extracted code... Zero tests. eek" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Miles @Em fixed date time format" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -818,6 +816,7 @@
     <MESSAGE value="@Miles displayed address correctly" />
     <MESSAGE value="@Miles rough styling.. added rendering of bin days" />
     <MESSAGE value="@Miles added rough and ready calendar entry generator... Extracted code... Zero tests. eek" />
+    <MESSAGE value="@Miles @Em fixed date time format" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
