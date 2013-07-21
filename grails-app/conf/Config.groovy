@@ -199,3 +199,9 @@ log4j = {
             'org.hibernate',
             'net.sf.ehcache.hibernate'
 }
+
+southwalk {
+    baseUrl = "http://localhost:8080/bindays/fake/southwalk"
+
+}
+
