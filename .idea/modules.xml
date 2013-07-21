@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hackedio-bindays.iml" filepath="$PROJECT_DIR$/hackedio-bindays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hackedio-bindays-grailsPlugins.iml" filepath="$PROJECT_DIR$/hackedio-bindays-grailsPlugins.iml" />
+    </modules>
+  </component>
+</project>
+
