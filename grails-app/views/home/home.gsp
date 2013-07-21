@@ -88,7 +88,7 @@
 
 
         <button id="install">
-            Install this awesome app on your homescreen!
+            Install BinDays!
         </button>
 
     </div>
