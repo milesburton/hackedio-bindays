@@ -1,13 +1,20 @@
 package bindays
 
-import org.joda.time.DateTime
+import org.joda.time.format.DateTimeFormat
+import org.joda.time.format.DateTimeFormatter
 
 class CalendarEntryController {
 
-    def create(String type, String date) {
+    def create(String type, String dateStr) {
 
-        Date collectionDate = DateTime.parse(date).toDate()
+        dateStr = dateStr.decodeURL()
         type = type.decodeURL()
+
+        //Wednesday 31 July 2013
+        DateTimeFormatter fmt = DateTimeFormat.forPattern("EEEE dd MMMM yyyy")
+        Date collectionDate = fmt.parseDateTime(dateStr).toDate()
+
+
 
         render(contentType: 'text/calendar') {
             calendar {
@@ -23,7 +30,7 @@ class CalendarEntryController {
                             description: 'Bin day',
                             summary: 'Bin day',
                             location: '@home',
-                            classification: 'private'){
+                            classification: 'private') {
                         organizer(name: 'Southwalk', email: 'southwalk@the.gov.uk')
                     }
                 }

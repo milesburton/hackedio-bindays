@@ -41,7 +41,9 @@ class BinDayService {
         }
 
         collections.collect {
-            it.calendarEntry = "calendar/${it.type.encodeAsURL()}/${it.nextCollection}"
+            it.calendarEntry = "calendar/${it.type.encodeAsURL()}/${it.nextCollection.encodeAsURL()}"
+
+            it
         }
 
     }

@@ -129,7 +129,11 @@
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.mnode.ical4j/ical4j/jars/ical4j-1.0.4.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES />
+        <SOURCES>
+          <root url="file://$USER_HOME$/Desktop/jodatimesrc/src/main/java" />
+          <root url="file://$USER_HOME$/Desktop/jodatimesrc/src/test/java" />
+          <root url="file://$USER_HOME$/Desktop/jodatimesrc/src/example" />
+        </SOURCES>
       </library>
     </orderEntry>
   </component>
